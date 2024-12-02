@@ -31,7 +31,7 @@ const App = () => {
       </section>
 
       <section className="padding">
-        <SpecialOffer/>
+        <SpecialOffer />
       </section>
 
       <section className="padding bg-pale-blue">
