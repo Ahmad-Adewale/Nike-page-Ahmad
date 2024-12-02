@@ -1,43 +1,34 @@
 import { arrowRight } from "../assets/icons"
-import { offer } from "../assets/images"
+import { offer } from "../assets/images" 
 
 const SpecialOffer = () => {
   return (
-    <div>
-        <section className="flex justify-between items-center
-         max-xl:flex-col-reverse gap-10 max-container">
-           <div className="flex-1">
-            <img src={offer} alt="Show Promotion" width={773} height={687}
-            className="object-contain w-full "/>
-           </div>
-           
-           <div className="flex flex-1 flex-col">
-            <h2 className="text-4xl font-palanquin font-bold">
-              <span className="text-coral-red"> Special </span>
-                offer
-            </h2>
-            <p className="mt-4 info-text">
-               Embark on a shopping journey that redefine your experience with unbeatable deal.
-               from premium selections to incredible savings.
-               We offer unparalleled value that sets us apart.
-            </p>
+   <section id="" className="flex justify-between items-center mx-xl:flex-col-reverse gap-10 max-container ">
+      <div className="flex-1">
+        <img src={offer} alt="Show Promotion" width={773} height={687} className="object-contain w-full" />
+      </div>
 
-            <p className="mt-6 info-text">
-              Navigate a realm of possibilities designed to fulfill your unique desire,
-              surpassing the loftiest expectation.
-              Your journey with us is nothing short of exceptional.
-            </p>
+      <div className="flex flex-1 flex-col">
+        <h2 className="text-4xl font-palanquin  font-bold">
+          <span className="text-coral-red">Special</span> Offer
+        </h2>
+        <p className="mt-4 info-text">
+          Embark on a shopping journey that redefine your experience with unbeatable deals. From premium selection to incredible savings. We offer unparalleled value that sets us apart.
+        </p>
 
-            <div className="mt-11 flex flex-wrap gap-4">
-              <button type="button" className="coral-btn">
-                Learn more   <img src={arrowRight} alt="arrow icon" />
+        <p className="mt-6 info-text">
+          Navigate a realm of possibilities designed to fulfill your unique desire, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional  
+        </p>
 
-              </button>
-              
-            </div>
-           </div>
-        </section>
-    </div>
+        <div className="mt-11 flex flex-wrap">
+          <button type="button" className="bg-white border border-slate-gray text-slate-gray coral-btn">Learn More
+            <img src={arrowRight} alt="arrow icon " className="mt-1" />
+          </button>
+
+    
+        </div>
+      </div>
+   </section>
   )
 }
 
